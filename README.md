@@ -7,14 +7,14 @@ A little project with [Doppler](https://www.doppler.com/)
 ## What it does
 
 Very simple api/rest function to retrieve secrets stored in Doppler and
-replaces variable expressions (e.g. ${DATABASE_URL} ) in static files with the
+replaces variable expressions (e.g. `${DATABASE_URL}` ) in static files with the
 respective Doppler secret.
 
 Variable Expression Formats Supported:
 
  * dollar-curly      e.g. `${MYVAR}` - Default
 
-To do:
+I need to fix:
  * dollar            e.g. `$MYVAR`
  * handlebars        e.g. `{{MYVAR}}`
  * dollar-handlebars e.g. `${{MYVAR}}`
