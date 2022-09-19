@@ -1,0 +1,11 @@
+==============================
+handlebar variables
+==============================
+"{{I_DONT_EXIST}}" 
+"{{LOGGING}}" 
+"{{STRIPE_KEY}}" 
+"{{PRIVATE_KEY}}"
+"{{FEATURE_FLAGS}}" 
+"{{DOPPLER_CONFIG}}" 
+"{{DOPPLER_ENVIRONMENT}}" 
+"{{DOPPLER_PROJECT}}"

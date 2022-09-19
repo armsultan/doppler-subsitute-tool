@@ -1,0 +1,48 @@
+==============================
+curly-dollar variables
+==============================
+"${I_DONT_EXIST}" 
+"${LOGGING}" 
+"${STRIPE_KEY}" 
+"${PRIVATE_KEY}"
+"${FEATURE_FLAGS}" 
+"${DOPPLER_CONFIG}" 
+"${DOPPLER_ENVIRONMENT}" 
+"${DOPPLER_PROJECT}"
+$DOPPLER_ENVIRONMENT, "${DOPPLER_ENVIRONMENT}", "{{$DOPPLER_ENVIRONMENT}}" , "${{$DOPPLER_ENVIRONMENT}}" 
+==============================
+Dollar variables
+==============================
+"$I_DONT_EXIST" 
+"$LOGGING" 
+"$STRIPE_KEY" 
+"$PRIVATE_KEY"
+"$FEATURE_FLAGS" 
+"$DOPPLER_CONFIG" 
+"$DOPPLER_ENVIRONMENT" 
+"$DOPPLER_PROJECT"
+$DOPPLER_ENVIRONMENT, "${DOPPLER_ENVIRONMENT}", "{{$DOPPLER_ENVIRONMENT}}" , "${{$DOPPLER_ENVIRONMENT}}" 
+==============================
+handlebar variables
+==============================
+"{{I_DONT_EXIST}}" 
+"{{OGGING}}" 
+"{{STRIPE_KEY}}" 
+"{{PRIVATE_KEY}}"
+"{{FEATURE_FLAGS}}" 
+"{{DOPPLER_CONFIG}}" 
+"{{DOPPLER_ENVIRONMENT}}" 
+"{{DOPPLER_PROJECT}}"
+$DOPPLER_ENVIRONMENT, "${DOPPLER_ENVIRONMENT}", "{{$DOPPLER_ENVIRONMENT}}" , "${{$DOPPLER_ENVIRONMENT}}" 
+==============================
+dollar-handlebar variables
+==============================
+"${{I_DONT_EXIST}}" 
+"${{OGGING}}" 
+"${{STRIPE_KEY}}" 
+"${{PRIVATE_KEY}}"
+"${{FEATURE_FLAGS}}" 
+"${{DOPPLER_CONFIG}}" 
+"${{DOPPLER_ENVIRONMENT}}" 
+"${{DOPPLER_PROJECT}}"
+$DOPPLER_ENVIRONMENT, "${DOPPLER_ENVIRONMENT}", "{{$DOPPLER_ENVIRONMENT}}" , "${{$DOPPLER_ENVIRONMENT}}" 
